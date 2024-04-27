@@ -3,7 +3,9 @@
         <div class="col">
             <div class="alert alert-info text-center">
                 View and fork this project on
-                <a href="https://github.com/jsldvr/simple-rss-feed-display" target="_blank" rel="noopener noreferrer">GitHub</a>!
+                <a href="https://github.com/jsldvr/news-feed" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>!
             </div>
 
             <table class="table w-100" id="news-table">
