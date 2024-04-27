@@ -1,2 +1,5 @@
 # ignore the data file at ./app/data/posts.json
 app/data/posts.json
+
+# ignore .htaccess file
+.htaccess
