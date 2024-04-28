@@ -3,3 +3,6 @@ app/data/posts.json
 
 # ignore .htaccess file
 .htaccess
+
+# ignore the shell script
+shell.sh
