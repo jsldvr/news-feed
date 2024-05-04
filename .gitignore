@@ -3,3 +3,12 @@ app/data/posts.json
 
 # ignore .htaccess file
 .htaccess
+
+# all .sh files
+*.sh
+
+# ignore all .log files
+*.log
+
+# ignore all .json files
+*.json
