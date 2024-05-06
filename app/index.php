@@ -1,1 +1,1 @@
-<?php // silence is golden
+<?php defined('APPBASE') or die;

@@ -1,42 +1,25 @@
 <?php
 
 /**
- * Require the script to refresh the json file.
+ * Define the root path
  */
-require_once('getRSS.php');
+
+define('APPBASE', __DIR__);
+
+/**
+ * Initialize the app
+ */
+require_once('app/init.php');
 
 /**
  * Set some global params
  */
 $app = [
-    'title' => 'News Feed'
+    'title' => Config::SiteName,
+    'desc' => Config::SiteDesc,
 ];
 
 /**
- * Website HTML
+ * Require the index.php file
  */
-?>
-<!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
-
-<?php require_once('app/inc/head.php'); ?>
-
-<body>
-
-    <?php
-    // Header
-    require_once('app/inc/header.php');
-
-    // Main
-    require_once('app/inc/main.php');
-
-    // Footer
-    require_once('app/inc/footer.php');
-
-    // Footer Scripts
-    require_once('app/inc/scripts.php');
-    ?>
-
-</body>
-
-</html>
+require_once(APPBASE . '/app/inc/index.php');

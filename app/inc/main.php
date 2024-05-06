@@ -1,4 +1,5 @@
-<main class="container py-2" style="max-width: 576px;">
+<?php defined('APPBASE') or die; ?>
+<main class="container py-2">
     <div class="row">
         <div class="col">
             <div class="alert alert-info text-center">
@@ -18,12 +19,12 @@
                 <tbody>
                     <?php
                     // Read the JSON file contents
-                    $file = 'app/data/posts.json';
+                    $file = Config::PostsPath;
                     $jsonData = file_get_contents($file);
                     $posts = json_decode($jsonData, true);
 
                     // Display each post
-                    foreach ($posts as $post) {
+                    foreach ($posts["Feed"]["Posts"] as $post) {
                         $desc = $post['description'];
                         $stripDesc = strip_tags($desc);
                         $limitDesc = substr($stripDesc, 0, 512);

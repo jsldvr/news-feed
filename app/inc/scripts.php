@@ -1,3 +1,5 @@
+<?php defined('APPBASE') or die; ?>
+
 <script src="app/scripts/jquery-3.5.1.js"></script>
 <script src="app/scripts/bootstrap.bundle.min.js"></script>
 <script src="app/scripts/datatables.min.js"></script>

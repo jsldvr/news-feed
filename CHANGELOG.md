@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ## [1.1.1] - 2024-04-28
 
+- Added - `app/` directory with:
+
+  - `index.php` file to help prevent snooping.
+  - `init.php` file to initialize the app.
+
 - Changed - CHANGELOG format due to errors with Multiple headings with the same content.
 
 ## [1.1.0] - 2024-04-27

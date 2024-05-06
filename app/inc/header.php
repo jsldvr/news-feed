@@ -1,5 +1,9 @@
-<?php require_once __DIR__ . '/../../app/utils/getAppVersion.php'; ?>
-<header class="container py-2 mt-3" style="max-width: 576px;">
+<?php defined('APPBASE') or die;
+
+// require_once APPBASE . '/app/utils/getAppVersion.php';
+require_once APPBASE . '/app/utils/getAppVersion.php';
+?>
+<header class="container py-2 mt-3">
     <div class="row">
         <div class="col">
             <div class="h3 text-center">

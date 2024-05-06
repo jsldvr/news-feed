@@ -1,4 +1,5 @@
-<footer class="container py-2 mb-3" style="max-width: 576px;">
+<?php defined('APPBASE') or die; ?>
+<footer class="container py-2 mb-3">
     <div class="row">
         <div class="col">
             <p>&copy; 2023. All rights reserved. </p>

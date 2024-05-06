@@ -4,5 +4,11 @@ app/data/posts.json
 # ignore .htaccess file
 .htaccess
 
-# ignore the shell script
-shell.sh
+# ignore all shell files
+*.sh
+
+# ignore all files in the app/tmp directory
+app/tmp/*
+
+# ignore all files in the app/logs directory
+app/logs/*
